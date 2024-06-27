@@ -9,3 +9,8 @@
     color: #fffb00;
     font-size: 20px;
 }
+
+.Navbar svg:hover {
+    transform: scale(1.5);
+    transition: 0.25s;
+}

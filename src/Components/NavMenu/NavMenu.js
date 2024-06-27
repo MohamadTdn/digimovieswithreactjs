@@ -6,6 +6,7 @@ import SlideshowIcon from '@mui/icons-material/Slideshow';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import InfoIcon from '@mui/icons-material/Info';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import SearchIcon from '@mui/icons-material/Search';
 import './NavMenu.css'
 
 export default function NavMenu() {
@@ -37,11 +38,14 @@ export default function NavMenu() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
-              className="me-2"
+              placeholder="جست و جو"
+              className="me-2 search-form"
               aria-label="Search"
+              style={{borderRadius: '20px'}}
             />
-            <Button variant="warning">Search</Button>
+            <Button size="sm" variant="warning" style={{borderRadius: '50px'}}>
+              <SearchIcon style={{color: '#000'}}/>
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

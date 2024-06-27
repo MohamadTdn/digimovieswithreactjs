@@ -11,7 +11,7 @@ import './NavMenu.css'
 
 export default function NavMenu() {
   return (
-    <Navbar collapseOnSelect bg="dark" data-bs-theme="dark" expand="lg" className="Navbar bg-body-tertiary">
+    <Navbar collapseOnSelect bg="dark" data-bs-theme="dark" expand="lg" className="Navbar bg-body-tertiary fixed-top">
       <Container>
         <Navbar.Brand href="/">
           <img src="assets/logo.png" className='w-50' alt="" />

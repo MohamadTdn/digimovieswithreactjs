@@ -1,7 +1,11 @@
 import React from 'react'
 import { Container, Nav, Navbar, Form, Button } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
-import { TiHome } from "react-icons/ti";
+import { TiHome ,} from "react-icons/ti";
+import SlideshowIcon from '@mui/icons-material/Slideshow';
+import LiveTvIcon from '@mui/icons-material/LiveTv';
+import InfoIcon from '@mui/icons-material/Info';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import './NavMenu.css'
 
 export default function NavMenu() {
@@ -18,16 +22,16 @@ export default function NavMenu() {
               <Nav.Link><TiHome /> خانه </Nav.Link>
             </NavLink>
             <NavLink to='/movies'>
-              <Nav.Link>فیلم ها</Nav.Link>
+              <Nav.Link> <SlideshowIcon/> فیلم ها</Nav.Link>
             </NavLink>
             <NavLink to='/series'>
-              <Nav.Link>سریال ها</Nav.Link>
+              <Nav.Link> <LiveTvIcon/> سریال ها</Nav.Link>
             </NavLink>
             <NavLink to='/about'>
-              <Nav.Link>درباره ما</Nav.Link>
+              <Nav.Link> <InfoIcon/> درباره ما</Nav.Link>
             </NavLink>
             <NavLink to='/contact'>
-              <Nav.Link>تماس</Nav.Link>
+              <Nav.Link> <AlternateEmailIcon/> تماس</Nav.Link>
             </NavLink>
           </Nav>
           <Form className="d-flex">

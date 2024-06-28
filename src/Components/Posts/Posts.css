@@ -1,0 +1,31 @@
+.Post-desc {
+    width: 450px;
+}
+
+.Posts {
+    border-radius: 20px;
+    margin: 20px 0;
+    background-color: #0a0a0a;
+}
+
+.Posts a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.Post-image {
+    border-radius: 15px;
+    margin: 10px 0 0 10px;
+}
+
+.Post-data li {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: black;
+    width: 150px;
+}
+
+.Post-data li svg {
+    color: #efdb22;
+}

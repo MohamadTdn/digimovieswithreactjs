@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Stack from '@mui/material/Stack';
+import './Sidebar.css'
 
 export default function Sidebar() {
   return (
@@ -15,6 +16,64 @@ export default function Sidebar() {
           تلگرام
         </Button>
       </Stack>
+      <div className='New'>
+        <div style={{padding: '20px',display: 'flex', justifyContent: 'space-between'}}>
+          <h5>جدیدترین ها</h5>
+          <Button variant="contained" color='success'>همه</Button>
+        </div>
+        <ul>
+          <li>
+             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+          </li>
+          <li>
+             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+          </li>
+          <li>
+             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+          </li>
+        </ul>
+      </div>  
+      <div className='Best-Movies'>
+        <div style={{padding: '20px',display: 'flex', justifyContent: 'space-between'}}>
+            <h5>250 فیلم IMDB</h5>
+            <Button variant="contained" color='success'>همه</Button>
+        </div>
+          <ul>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div>
     </div>
   )
 }

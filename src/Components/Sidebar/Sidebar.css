@@ -1,0 +1,27 @@
+.New {
+    border-radius: 20px;
+    margin: 20px 0;
+    background-color: #0a0a0a;
+}
+
+.Sidebar ul {
+    list-style-type: none;
+}
+
+.Sidebar-img {
+    height: 80px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.Best-Movies {
+    border-radius: 20px;
+    margin: 20px 0;
+    background-color: #0a0a0a;
+}
+
+.Best-Movies-img {
+    width: 70px;
+    height: 80px;
+}

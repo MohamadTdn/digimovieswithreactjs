@@ -3,6 +3,9 @@ import Button from '@mui/material/Button';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Stack from '@mui/material/Stack';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './Sidebar.css'
 
 export default function Sidebar() {
@@ -115,6 +118,29 @@ export default function Sidebar() {
               </div>
             </li>
           </ul>
+      </div>
+      <div className='Movies-pics' >
+        <Container>
+        <Row>
+          <Col sm={8}>
+             <img src="assets/post.jfif" className='Random-img' alt="" />
+          </Col>
+          <Col sm={4}>
+            <img src="assets/post.jfif" className='Random-img' alt="" />
+          </Col>
+        </Row>
+        <Row>
+          <Col sm>
+             <img src="assets/post.jfif" className='Random-img' alt="" />
+          </Col>
+          <Col sm>
+             <img src="assets/post.jfif" className='Random-img' alt="" />
+          </Col>
+          <Col sm>
+             <img src="assets/post.jfif" className='Random-img' alt="" />
+          </Col>
+        </Row>
+      </Container>
       </div>
     </div>
   )

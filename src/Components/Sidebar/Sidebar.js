@@ -74,6 +74,48 @@ export default function Sidebar() {
             </li>
           </ul>
       </div>
+
+      <div className='Best-Series'>
+        <div style={{padding: '20px',display: 'flex', justifyContent: 'space-between'}}>
+            <h5>250 سریال IMDB</h5>
+            <Button variant="contained" color='success'>همه</Button>
+        </div>
+          <ul>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+            <li style={{padding: '20px 0'}}>
+              <div style={{display: 'flex',}}>
+                <div>
+                  <img className='Best-Series-img' src="assets/post.jfif" alt="" />
+                </div>
+                <div style={{margin: '0 20px 0 0'}}>
+                  <h4 style={{fontSize: '20px'}}>Inception</h4>
+                  <h5 style={{fontSize: '15px', margin: '20px 0 0 0'}}>علمی تخیلی</h5>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div>
     </div>
   )
 }

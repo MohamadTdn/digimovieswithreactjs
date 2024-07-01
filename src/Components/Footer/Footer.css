@@ -1,0 +1,20 @@
+.Footer {
+    background-color: #3c3c3c;
+    border-radius: 20px;
+    color: #ffff
+}
+
+.Quick-Access {
+    list-style-type: none;
+}
+
+.Quick-Access a{
+    color: #ffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+
+.Footer-desc {
+    line-height: 40px;
+}

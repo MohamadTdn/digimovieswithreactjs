@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from '../Slider/Slider'
 import Content from '../Content/Content'
+import Footer from '../Footer/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </select>
       </div>
       <Content/>
+      <Footer/>
     </div>
   )
 }

@@ -20,19 +20,19 @@ export default function NavMenu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='ms-auto'>
             <NavLink to='/'>
-              <Nav.Link><TiHome /> خانه </Nav.Link>
+              <TiHome /> خانه 
             </NavLink>
             <NavLink to='/movies'>
-              <Nav.Link> <SlideshowIcon/> فیلم ها</Nav.Link>
+              <SlideshowIcon/> فیلم ها
             </NavLink>
             <NavLink to='/series'>
-              <Nav.Link> <LiveTvIcon/> سریال ها</Nav.Link>
+               <LiveTvIcon/> سریال ها
             </NavLink>
             <NavLink to='/about'>
-              <Nav.Link> <InfoIcon/> درباره ما</Nav.Link>
+             <InfoIcon/> درباره ما
             </NavLink>
             <NavLink to='/contact'>
-              <Nav.Link> <AlternateEmailIcon/> تماس</Nav.Link>
+              <AlternateEmailIcon/> تماس
             </NavLink>
           </Nav>
           <Form className="d-flex">

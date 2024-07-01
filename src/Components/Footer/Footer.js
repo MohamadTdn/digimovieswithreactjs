@@ -3,6 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './Footer.css'
 
 export default function Footer() {
@@ -28,7 +32,28 @@ export default function Footer() {
             </Col>
         </Row>
         <Row>
-          <Col>s</Col>
+          <Col>
+            <ul className='Socials text-center'>
+              <h5>شبکه های اجتماعی</h5>
+              <li>
+                <InstagramIcon/>
+              </li>
+              <li>
+                <TelegramIcon/>
+              </li>
+              <li>
+                <YouTubeIcon/>
+              </li>
+              <li>
+                <WhatsAppIcon/>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <div className='Copyright'>
+            <h5 className='text-center'>Create by : Mohamad Tadayon , UI by digimedia template from rtl website</h5>
+          </div>
         </Row>
     </Container>
   )

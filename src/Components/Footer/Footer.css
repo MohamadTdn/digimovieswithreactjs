@@ -18,3 +18,20 @@
 .Footer-desc {
     line-height: 40px;
 }
+
+.Socials {
+    list-style: none;
+}
+
+.Socials li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.Copyright {
+    background-color: #232121;
+}
+
+.Copyright h5 {
+    padding: 20px;
+}

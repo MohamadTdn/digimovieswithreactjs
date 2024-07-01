@@ -14,7 +14,7 @@ export default function NavMenu() {
     <Navbar collapseOnSelect bg="dark" data-bs-theme="dark" expand="lg" className="Navbar bg-body-tertiary fixed-top">
       <Container>
         <Navbar.Brand href="/">
-          <img src="assets/logo.png" className='w-50' alt="" />
+          <img src="assets/logo.png" className='w-25' alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

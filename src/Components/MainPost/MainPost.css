@@ -23,3 +23,8 @@
 .Crew {
     list-style-type: none;
 }
+
+.Crew li {
+    display: inline-block;
+    margin: 0 30px 0 0;
+}

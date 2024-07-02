@@ -37,7 +37,7 @@ export default function Posts() {
                     </li>
                 </ul>
                     <Button style={{margin: '0 300px 10px 0'}} variant='warning'>
-                        <Link to='/'>ادامه + دانلود</Link>
+                        <Link to='/post/:id'>ادامه + دانلود</Link>
                     </Button>
             </Col>
             <Col lg={3}>

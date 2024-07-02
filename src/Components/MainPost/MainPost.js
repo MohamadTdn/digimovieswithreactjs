@@ -40,8 +40,8 @@ export default function MainPost() {
               <li>زبان: تستی</li>
             </ul>
             <ul className='Crew'>
+              <h4>کارگردان</h4>
               <li className='director'>
-                <h4>کارگردان</h4>
                 <span> 
                   <img style={{width: '50px', height: '50px', borderRadius: '50%'}} src="/assets/post.jfif" alt="" />
                 </span>
@@ -49,8 +49,8 @@ export default function MainPost() {
                   Christopher Nolan
                 </span>
               </li>
-              <li className='Actors'>
               <h4>بازیگران</h4>
+              <li className='Actors'>
                 <span> 
                   <img style={{width: '50px', height: '50px', borderRadius: '50%'}} src="/assets/post.jfif" alt="" />
                 </span>
@@ -58,8 +58,6 @@ export default function MainPost() {
                   leonardo Di Caprio
                 </span>
               </li>
-              <li></li>
-              <li></li>
             </ul>
             <h4>نظرات</h4>
             <Comment/>

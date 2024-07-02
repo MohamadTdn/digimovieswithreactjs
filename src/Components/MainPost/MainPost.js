@@ -38,6 +38,14 @@ export default function MainPost() {
               <li>سال تولید: تستی</li>
               <li>زبان: تستی</li>
             </ul>
+            <ul className='Crew'>
+              <li className='director'>
+                h
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </Col>
           <Col lg={3} style={{padding: '90px 0 0 0'}}>
             <Sidebar/>

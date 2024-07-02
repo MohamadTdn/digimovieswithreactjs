@@ -1,0 +1,17 @@
+.MinPost-Container h5 {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.MinPost-Container span {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.data li{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #545353;
+}

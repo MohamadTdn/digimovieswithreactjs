@@ -26,13 +26,13 @@ export default function Sidebar() {
         </div>
         <ul>
           <li>
-             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+             <img src="/assets/post.jfif" className='Sidebar-img' alt="" />
           </li>
           <li>
-             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+             <img src="/assets/post.jfif" className='Sidebar-img' alt="" />
           </li>
           <li>
-             <img src="assets/post.jfif" className='Sidebar-img' alt="" />
+             <img src="/assets/post.jfif" className='Sidebar-img' alt="" />
           </li>
         </ul>
       </div>  
@@ -45,7 +45,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Movies-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -56,7 +56,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Movies-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -67,7 +67,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Movies-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -87,7 +87,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Movies-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -98,7 +98,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Movies-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Movies-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -109,7 +109,7 @@ export default function Sidebar() {
             <li style={{padding: '20px 0'}}>
               <div style={{display: 'flex',}}>
                 <div>
-                  <img className='Best-Series-img' src="assets/post.jfif" alt="" />
+                  <img className='Best-Series-img' src="/assets/post.jfif" alt="" />
                 </div>
                 <div style={{margin: '0 20px 0 0'}}>
                   <h4 style={{fontSize: '20px'}}>Inception</h4>
@@ -123,21 +123,21 @@ export default function Sidebar() {
         <Container>
         <Row>
           <Col sm={8}>
-             <img src="assets/post.jfif" className='Random-img' alt="" />
+             <img src="/assets/post.jfif" className='Random-img' alt="" />
           </Col>
           <Col sm={4}>
-            <img src="assets/post.jfif" className='Random-img' alt="" />
+            <img src="/assets/post.jfif" className='Random-img' alt="" />
           </Col>
         </Row>
         <Row>
           <Col sm>
-             <img src="assets/post.jfif" className='Random-img' alt="" />
+              <img src="/assets/post.jfif" className='Random-img' alt="" />
           </Col>
           <Col sm>
-             <img src="assets/post.jfif" className='Random-img' alt="" />
+             <img src="/assets/post.jfif" className='Random-img' alt="" />
           </Col>
           <Col sm>
-             <img src="assets/post.jfif" className='Random-img' alt="" />
+             <img src="/assets/post.jfif" className='Random-img' alt="" />
           </Col>
         </Row>
       </Container>

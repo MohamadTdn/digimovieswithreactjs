@@ -4,6 +4,7 @@ import Sidebar from '../Sidebar/Sidebar'
 import NavMenu from '../NavMenu/NavMenu'
 import Footer from '../Footer/Footer'
 import './MainPost.css'
+import Comment from '../Comment/Comment'
 
 export default function MainPost() {
   return (
@@ -40,12 +41,28 @@ export default function MainPost() {
             </ul>
             <ul className='Crew'>
               <li className='director'>
-                h
+                <h4>کارگردان</h4>
+                <span> 
+                  <img style={{width: '50px', height: '50px', borderRadius: '50%'}} src="/assets/post.jfif" alt="" />
+                </span>
+                <span>
+                  Christopher Nolan
+                </span>
+              </li>
+              <li className='Actors'>
+              <h4>بازیگران</h4>
+                <span> 
+                  <img style={{width: '50px', height: '50px', borderRadius: '50%'}} src="/assets/post.jfif" alt="" />
+                </span>
+                <span>
+                  leonardo Di Caprio
+                </span>
               </li>
               <li></li>
               <li></li>
-              <li></li>
             </ul>
+            <h4>نظرات</h4>
+            <Comment/>
           </Col>
           <Col lg={3} style={{padding: '90px 0 0 0'}}>
             <Sidebar/>

@@ -8,10 +8,18 @@
     margin: 10px 0;
 }
 
+.data {
+    list-style-type: none;
+}
+
 .data li{
     display: inline-block;
     margin: 10px;
     border-radius: 15px;
     padding: 20px;
     background-color: #545353;
+}
+
+.Crew {
+    list-style-type: none;
 }

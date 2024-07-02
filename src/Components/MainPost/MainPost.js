@@ -13,7 +13,7 @@ export default function MainPost() {
       <Container className='MinPost-Container'>
         <Row>
           <Col lg={9} style={{padding: '90px 0 0 0'}}>
-            <div className='Post-background' style={{backgroundImage: 'url(/assets/post.jfif)', height: '300px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}></div>
+            <div className='Post-background' style={{backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxbqjs1Y6CsBnN16WE1GhogviDnMqVJU3AQ&s)', height: '100px', width: '700px' , backgroundRepeat: 'no-repeat', backgroundSize: 'auto'}}></div>
             <div style={{padding: '10px 0' , display: 'flex'}}>
                  <img style={{width: '250px', height: '350px'}} src="/assets/post.jfif" alt="" />
                   <div style={{padding: '10px'}}>

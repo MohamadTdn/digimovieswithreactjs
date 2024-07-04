@@ -3,29 +3,15 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Slider() {
   return (
-    <Carousel className='Slider'>
-      <Carousel.Item>
-        <img text="First slide" src='assets/sliderimg.avif' className='w-100' />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+    <Carousel fade className='Slider' style={{padding: "30px 0 0 0"}}>
+      <Carousel.Item interval={500} >
+        <img src='assets/sliderimg.avif' style={{height: '700px'}} className='w-100' />
       </Carousel.Item>
-      <Carousel.Item>
-        <img text="Second slide" src='assets/sliderimg.avif' className='w-100' />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+      <Carousel.Item interval={500} >
+        <img src='assets/slide2.jpg' style={{height: '700px'}} className='w-100' />
       </Carousel.Item>
-      <Carousel.Item>
-        <img text="Third slide" src='assets/sliderimg.avif' className='w-100' />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+      <Carousel.Item interval={500}>
+        <img src='assets/slide3.jpg' style={{height: '700px'}} className='w-100' />
       </Carousel.Item>
     </Carousel>
   )

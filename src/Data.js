@@ -1,4 +1,4 @@
-[
+let posts = [
     {
         "id": 1,
         "title": "Shawshank Redemption",

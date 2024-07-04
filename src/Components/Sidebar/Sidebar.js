@@ -13,7 +13,7 @@ export default function Sidebar() {
   const [posts , setPosts] = useState([])
 
   async function getFromApi () {
-    fetch('https://tedimovie-df041-default-rtdb.firebaseio.com/posts.json', {
+    await fetch('https://tedimovie-df041-default-rtdb.firebaseio.com/posts.json', {
         method: 'GET'
     }).then(res => res.json())
       .then(data => {
@@ -68,7 +68,7 @@ export default function Sidebar() {
               return item[1].type == 'Movie'
             }).map(post => {
               return (
-                <li style={{padding: '20px 0'}}>
+                <li key={post[1].id} style={{padding: '20px 0'}}>
                   <div style={{display: 'flex',}}>
                     <div>
                       <img className='Best-Movies-img' src={post[1].Cover} alt="" />

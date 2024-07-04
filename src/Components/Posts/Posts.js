@@ -13,7 +13,7 @@ export default function Posts() {
   const [posts, setPosts] = useState([]);
 
   async function getFromApi() {
-    fetch("https://tedimovie-df041-default-rtdb.firebaseio.com/posts.json", {
+    await fetch("https://tedimovie-df041-default-rtdb.firebaseio.com/posts.json", {
       method: "GET",
     })
       .then((res) => res.json())
@@ -32,7 +32,7 @@ export default function Posts() {
   useEffect(() => {
     getFromApi();
   });
-
+  
   return (
     <Container>
       {posts.map((post) => {

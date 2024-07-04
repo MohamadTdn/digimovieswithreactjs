@@ -11,10 +11,6 @@ export default function Content() {
        <Row style={{color: 'white'}}>
         <Col lg={9}>
           <Posts/>
-          <Posts/>
-          <Posts/>
-          <Posts/>
-          <Posts/>
         </Col>
         <Col lg={3}>
           <Sidebar/>

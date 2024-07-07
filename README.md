@@ -23,7 +23,7 @@ npm start
 3. React Icons
 4. React Bootstrap
 5. Material UI
-6. Firebase Database
+6. Firebase Realtime Database
 
 ---
 
